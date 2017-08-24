@@ -1,5 +1,10 @@
 package com.coaching.travelObject;
 
+/**
+ * 
+ * @author Manish.sharma
+ *
+ */
 public class StudentTO {
 
 	private int stuid;
