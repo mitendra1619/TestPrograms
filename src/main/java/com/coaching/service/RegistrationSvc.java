@@ -2,9 +2,9 @@ package com.coaching.service;
 
 import java.util.List;
 
-import com.coaching.Model.StudentEntity;
-import com.coaching.Model.SubjectEntity;
-import com.coaching.Model.TeacherEntity;
+import com.coaching.model.StudentEntity;
+import com.coaching.model.SubjectEntity;
+import com.coaching.model.TeacherEntity;
 
 public interface RegistrationSvc {
 

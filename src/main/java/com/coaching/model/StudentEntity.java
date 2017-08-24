@@ -1,4 +1,4 @@
-package com.coaching.Model;
+package com.coaching.model;
 
 import java.util.HashSet;
 import java.util.Set;
@@ -22,17 +22,16 @@ public class StudentEntity {
 
 	@Id
 	@GeneratedValue(strategy=GenerationType.IDENTITY)
-	 @Column(name = "STUDENT_ID")
+	 @Column(name = "ID")
 	private int sid;
 	
 	
 	@NotEmpty
     @Column(name="FIRST_NAME")
     private String name;
-	
 	@ManyToMany(cascade = CascadeType.ALL)
-	@JoinTable(name="STUDENT_SUBJECTID", joinColumns={@JoinColumn(name="STUDENT_ID")}, 
-				inverseJoinColumns={@JoinColumn(name="SUBJECT_ID")})
+	@JoinTable(name="STUDENT_SUBJECTID", joinColumns= @JoinColumn(name="STUDENT_ID", referencedColumnName = "ID"), 
+				inverseJoinColumns=@JoinColumn(name="SUBJECT_ID", referencedColumnName = "ID"))
 	private Set<SubjectEntity> subjects = new HashSet<SubjectEntity>();
 
 	

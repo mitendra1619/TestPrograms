@@ -8,9 +8,9 @@ import javax.persistence.PersistenceContext;
 import org.springframework.stereotype.Repository;
 import org.springframework.transaction.annotation.Transactional;
 
-import com.coaching.Model.StudentEntity;
-import com.coaching.Model.SubjectEntity;
-import com.coaching.Model.TeacherEntity;
+import com.coaching.model.StudentEntity;
+import com.coaching.model.SubjectEntity;
+import com.coaching.model.TeacherEntity;
 
 @Repository("registrationDAO")
 @Transactional

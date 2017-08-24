@@ -5,10 +5,10 @@ import java.util.List;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import com.coaching.Model.StudentEntity;
-import com.coaching.Model.SubjectEntity;
-import com.coaching.Model.TeacherEntity;
 import com.coaching.dao.RegistrationDAO;
+import com.coaching.model.StudentEntity;
+import com.coaching.model.SubjectEntity;
+import com.coaching.model.TeacherEntity;
 
 @Service("registrationSvc")
 public class RegistrationSvcImpl implements RegistrationSvc {

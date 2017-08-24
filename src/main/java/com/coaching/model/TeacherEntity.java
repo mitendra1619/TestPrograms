@@ -1,4 +1,4 @@
-package com.coaching.Model;
+package com.coaching.model;
 
 public class TeacherEntity {
 
