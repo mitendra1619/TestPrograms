@@ -20,12 +20,12 @@ public class RegistrationDAOImpl implements RegistrationDAO {
     private EntityManager manager;
 	
 	public List getAllStudents() {
-		// TODO Auto-generated method stub
+	
 		return null;
 	}
 
 	public List getAllTeachers() {
-		// TODO Auto-generated method stub
+		
 		return null;
 	}
 
@@ -36,7 +36,7 @@ public class RegistrationDAOImpl implements RegistrationDAO {
 	}
 
 	public void addTeacher(TeacherEntity tchr) {
-		// TODO Auto-generated method stub
+		
 		
 	}
 	
