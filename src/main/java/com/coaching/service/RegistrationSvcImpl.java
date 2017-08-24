@@ -9,6 +9,8 @@ import com.coaching.dao.RegistrationDAO;
 import com.coaching.model.StudentEntity;
 import com.coaching.model.SubjectEntity;
 import com.coaching.model.TeacherEntity;
+import com.coaching.travelObject.StudentTO;
+import com.coaching.travelObject.TeacherTO;
 
 @Service("registrationSvc")
 public class RegistrationSvcImpl implements RegistrationSvc {
@@ -17,12 +19,12 @@ public class RegistrationSvcImpl implements RegistrationSvc {
 	RegistrationDAO registrationDAO; 
 	
 	
-	public List getAllStudents() {
+	public List<StudentTO> getAllStudents() {
 		// TODO Auto-generated method stub
 		return null;
 	}
 
-	public List getAllTeachers() {
+	public List<TeacherTO> getAllTeachers() {
 		// TODO Auto-generated method stub
 		return null;
 	}
